@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="img/icon.png" />
+	<title>Obsequiarte</title>
+	<meta charset="utf-8">
+	<link href="estilo.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+    <form  class="contact_form" action="#" id="contact_form" runat="server">
+        <div>
+            <ul>
+                <li>
+                    <h2>Contactenos</h2>
+                    <p>Cualquier duda no olvides contactanos, estamos pendientes de tu solicitud.</p>
+                </li>
+                <li>
+                    <label for="name">Nombre completo:</label>
+                    <input type="message" placeholder="John Doe" required />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="info@developerji.com" required />
+                    <span class="form_hint">Formato correcto: "name@something.com"</span>
+                </li>
+                <li>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" cols="40" rows="6" required placeholder="Deje aquí su mensaje sin omitir detalle alguno así la respuesta será dada de la mejor forma"></textarea>
+                </li>
+                <li>
+                    <button class="submit" type="submit">Enviar mensaje</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>
